@@ -13,6 +13,10 @@
 		46D31D0D23E5CB850096C9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D31D0B23E5CB850096C9AA /* Main.storyboard */; };
 		46D31D0F23E5CB860096C9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D31D0E23E5CB860096C9AA /* Assets.xcassets */; };
 		46D31D1223E5CB860096C9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D31D1023E5CB860096C9AA /* LaunchScreen.storyboard */; };
+		46D31D1A23E5CC840096C9AA /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31D1923E5CC840096C9AA /* MemoryItem.swift */; };
+		46D31D1C23E5CDD40096C9AA /* MemoryItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 46D31D1B23E5CDD40096C9AA /* MemoryItems.json */; };
+		46D31D1E23E5CF680096C9AA /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31D1D23E5CF680096C9AA /* MemoryViewController.swift */; };
+		46D31D2023E5D6110096C9AA /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D31D1F23E5D6110096C9AA /* MemoryDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		46D31D0E23E5CB860096C9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D31D1123E5CB860096C9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D31D1323E5CB860096C9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D31D1923E5CC840096C9AA /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		46D31D1B23E5CDD40096C9AA /* MemoryItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MemoryItems.json; sourceTree = "<group>"; };
+		46D31D1D23E5CF680096C9AA /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		46D31D1F23E5D6110096C9AA /* MemoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				46D31D0523E5CB850096C9AA /* AppDelegate.swift */,
 				46D31D0723E5CB850096C9AA /* SceneDelegate.swift */,
 				46D31D0923E5CB850096C9AA /* ViewController.swift */,
+				46D31D1D23E5CF680096C9AA /* MemoryViewController.swift */,
+				46D31D1F23E5D6110096C9AA /* MemoryDataSource.swift */,
 				46D31D0B23E5CB850096C9AA /* Main.storyboard */,
+				46D31D1923E5CC840096C9AA /* MemoryItem.swift */,
 				46D31D0E23E5CB860096C9AA /* Assets.xcassets */,
 				46D31D1023E5CB860096C9AA /* LaunchScreen.storyboard */,
 				46D31D1323E5CB860096C9AA /* Info.plist */,
+				46D31D1B23E5CDD40096C9AA /* MemoryItems.json */,
 			);
 			path = Memorise;
 			sourceTree = "<group>";
@@ -128,6 +140,7 @@
 				46D31D1223E5CB860096C9AA /* LaunchScreen.storyboard in Resources */,
 				46D31D0F23E5CB860096C9AA /* Assets.xcassets in Resources */,
 				46D31D0D23E5CB850096C9AA /* Main.storyboard in Resources */,
+				46D31D1C23E5CDD40096C9AA /* MemoryItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D31D0A23E5CB850096C9AA /* ViewController.swift in Sources */,
+				46D31D2023E5D6110096C9AA /* MemoryDataSource.swift in Sources */,
 				46D31D0623E5CB850096C9AA /* AppDelegate.swift in Sources */,
 				46D31D0823E5CB850096C9AA /* SceneDelegate.swift in Sources */,
+				46D31D1A23E5CC840096C9AA /* MemoryItem.swift in Sources */,
+				46D31D1E23E5CF680096C9AA /* MemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
